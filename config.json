@@ -9,5 +9,6 @@
   "theme": "cards",
   "theme-style": "./custom.css",
   "footer": "Copyright The MUSCAT Collaboration",
-  "usage-stats": false
+  "usage-stats": false,
+  "google-analytics": "273110653"
 }
