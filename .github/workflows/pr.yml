@@ -1,0 +1,17 @@
+name: Test Gallery
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  test:
+    name: Publish Gallery to Github Pages
+    if: github.repository != 'gautamkrishnar/github-pages-gallery'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+        with:
+          persist-credentials: false
+      - name: Build Gallery 🔧
+        run: docker run -v "$(pwd):/work" thumbsupgallery/thumbsup /bin/sh -c "cd /work/ && thumbsup --config config.json"
