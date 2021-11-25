@@ -1,6 +1,6 @@
 # MUSCAT Public Gallery
 
-This gallery is for general pictures and other media (such as posters or videos) which are suitable for public release. The gallery is currently accessible at https://muscat-instrument.github.io/ which is linked from the [main MUSCAT](https://muscat.astro.cf.ac.uk) site and the [user docs](https://muscat-docs.astro.cf.ac.uk).
+This gallery is for general pictures and other media (such as posters or videos) which are suitable for public release. The gallery is currently accessible at https://muscat-instrument.github.io/gallery which is linked from the [main MUSCAT](https://muscat.astro.cf.ac.uk) site and the [user docs](https://muscat-docs.astro.cf.ac.uk).
 
 MUSCAT team members should have access, if not please message @tombrien with you GitHub user name to be added to the team. Other contributers can fork the repo first, commit changes and then target pull requests against the `main` branch.
 
